@@ -5,6 +5,24 @@
 
 ## Usage
 
+#### func  CmdExec
+
+```go
+func CmdExec(cmdName string, cmdArgs ...string) (stdout string, stderr string, err error)
+```
+
+#### func  CmdExecIn
+
+```go
+func CmdExecIn(dir string, cmdName string, cmdArgs ...string) (stdout string, stderr string, err error)
+```
+
+#### func  CmdExecStdin
+
+```go
+func CmdExecStdin(stdin string, dir string, cmdName string, cmdArgs ...string) (stdout string, stderr string, err error)
+```
+
 #### func  SetupIpcPipes
 
 ```go
